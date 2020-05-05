@@ -1,23 +1,30 @@
+# 2014 Haswell
+
 - Installation Date: Mar 7, 2020
-- Open Core: v.0.5.6 (471ea9a) released on Mar 2, 2020
+- Open Core: v.0.5.7 (80a82ed) released on Apr 6, 2020
 
 # Hardware
 
-## 2014 Haswell
-
 - MB [GA-Z87MX-D3H](Extra/Specification-GA-Z87MX-D3H.md) @ BIOS [F6 (of F7)](https://www.gigabyte.com/Motherboard/GA-Z87MX-D3H-rev-1x/support#support-dl-bios)
 - CPU [Intel Core i7-4770](https://ark.intel.com/content/www/us/en/ark/products/75122/intel-core-i7-4770-processor-8m-cache-up-to-3-90-ghz.html) @ 3.4 GHz
-- iGPU Intel HD Graphics 4600
-- GPU Radeon RX 580 4 GB
+- iGPU [Intel HD Graphics 4600](https://downloadcenter.intel.com/product/81496/Intel-HD-Graphics-4600)
+- dGPU [Sapphire](https://www.sapphiretech.com/en/consumer/nitro-rx-580-4g-g5) [Radeon RX 580 4 GB](https://www.amd.com/en/products/graphics/radeon-rx-580)
 - RAM 16 GB 1866 MHz DDR3
-- Realtek ALC892 audio codec
+- Audio Codec Realtek ALC892
+- Ethernet `00:00:00:00:00:00` **I217-V** from Intel 
+- Wi-Fi + Bluetooth `00:00:00:00:00:00`  **BCM43602** 802.11ac
 
 
-### Network
+# Kexts
 
-- Ethernet `00:00:00:00:00:00` I217-V from Intel 
-- Wi-Fi `00:00:00:00:00:00`  **BCM43602** 802.11ac
-
+- AppleALC.kext
+- IntelMausiEthernet.kext
+- Lilu.kext
+- SMCProcessor.kext
+- SMCSuperIO.kext
+- USBInjectAll.kext
+- VirtualSMC.kext
+- WhateverGreen.kext
 
 ---
 
