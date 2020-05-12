@@ -1,4 +1,8 @@
+# Disclaimer
+
 You can use this EFI on your own hardware, if it’s similar to what is below, but keep in mind, you have to [generate your own serial numbers](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial), since mine are all zeroed and won’t work. I have no idea whether my aml-files (aka DSDT) will work on your hardware, even if you have the very same motherboard with the very same BIOS version, so I’d recommend you to read it through as well, it’s quite easy.
+
+---
 
 Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/).
 
@@ -8,12 +12,13 @@ Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop
 
 - Installation Date: Mar 7, 2020
 - Open Core: v.0.5.8 (001340f) released on May 4, 2020
-
+- macOS Catalina, v.10.15.4 (19E287)
+- SMBIOS: iMac14,2
 
 # Hardware
 
 - MB [GA-Z87MX-D3H](Extra/Specification-GA-Z87MX-D3H.md) @ BIOS [F6 (of F7)](https://www.gigabyte.com/Motherboard/GA-Z87MX-D3H-rev-1x/support#support-dl-bios)
-- CPU [Intel Core i7-4770](https://ark.intel.com/content/www/us/en/ark/products/75122/intel-core-i7-4770-processor-8m-cache-up-to-3-90-ghz.html) @ 3.4 GHz
+- CPU [Intel Core i7-4770](https://ark.intel.com/content/www/us/en/ark/products/75122/intel-core-i7-4770-processor-8m-cache-up-to-3-90-ghz.html) 4C/8T @ 3.4 GHz
 - iGPU [Intel HD Graphics 4600](https://downloadcenter.intel.com/product/81496/Intel-HD-Graphics-4600)
 - dGPU [Sapphire](https://www.sapphiretech.com/en/consumer/nitro-rx-580-4g-g5) [Radeon RX 580 4 GB](https://www.amd.com/en/products/graphics/radeon-rx-580)
 - RAM 16 GB 1866 MHz DDR3
@@ -90,3 +95,5 @@ Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop
 - VT-x
 - Hyper Threading
 - Execute Disable Bit
+
+I cannot get access to my BIOS due to some unknown bug, I have no idea what to do, so this section may be not entirely correct. I’ll update it when I’ll be able to login there.
