@@ -5,8 +5,8 @@ You can use this EFI on your own hardware, if it’s similar to what is below, b
 # Log
 
 - [Issues](Extra/Log/Issues)
-- [macOS Updates](Extra/Log/Updates/macOS/) 
-- [OC Updates](Extra/Log/Updates/OC/)
+- [Updates of macOS](Extra/Log/Updates/macOS/) 
+- [Updates of OpenCore](Extra/Log/Updates/OC/)
 
 ---
 
