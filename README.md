@@ -1,7 +1,7 @@
 # 2014 Haswell
 
 - Installation Date: Mar 7, 2020
-- Open Core: v.0.5.7 (80a82ed) released on Apr 6, 2020
+- Open Core: v.0.5.8 (001340f) released on May 4, 2020
 
 # Hardware
 
