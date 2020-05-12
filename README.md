@@ -2,7 +2,7 @@
 
 You can use this EFI on your own hardware, if it’s similar to what is below, but keep in mind, you have to [generate your own serial numbers](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial), since mine are all zeroed and won’t work. I have no idea whether my aml-files (aka DSDT) will work on your hardware, even if you have the very same motherboard with the very same BIOS version, so I’d recommend you to read it through as well, it’s quite easy.
 
-I keep issues log in [Extra/Log/Issues](Extra/Log/Issues). Also I keep update log in [Extra/Log/Updates/], you can find [macOS Updates there](Extra/Log/Updates/macOS/) and maybe I’ll keep log of [my OC Updates there](Extra/Log/Updates/OC/) as well.
+I keep issues log in [Extra/Log/Issues](Extra/Log/Issues). Also I keep update log in [Extra/Log/Updates/](Extra/Log/Updates), you can find [macOS Updates there](Extra/Log/Updates/macOS/) and maybe I’ll keep log of [my OC Updates there](Extra/Log/Updates/OC/) as well.
 
 ---
 
