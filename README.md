@@ -1,24 +1,12 @@
-# Disclaimer
-
-You can use this EFI on your own hardware, if it’s similar to what is below, but keep in mind, you have to [generate your own serial numbers](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial), since mine are all zeroed and won’t work. I have no idea whether my aml-files (aka DSDT) will work on your hardware, even if you have the very same motherboard with the very same BIOS version, so I’d recommend you to read it through as well, it’s quite easy.
-
-# Log
-
-- [Issues](Extra/Log/Issues)
-- [Updates of macOS](Extra/Log/Updates/macOS/) 
-- [Updates of OpenCore](Extra/Log/Updates/OC/)
-
----
-
-Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/).
-
----
-
 # 2014 Haswell
 
+- Guide Used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 - Installation Date: Mar 7, 2020
-- Open Core: v.0.5.8 (001340f) released on May 4, 2020
-- macOS Catalina, v.10.15.4 (19E287)
+
+# Current Version
+
+- Open Core: v.0.5.9 (64396ae) released on Jun 1, 2020
+- macOS Catalina, v.10.15.5 (19F101) updated on June 02, 2020
 - SMBIOS: iMac14,2
 
 # Hardware
@@ -35,14 +23,14 @@ Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop
 
 # Kexts
 
-- AppleALC.kext
-- IntelMausiEthernet.kext
-- Lilu.kext
-- SMCProcessor.kext
-- SMCSuperIO.kext
-- USBInjectAll.kext
-- VirtualSMC.kext
-- WhateverGreen.kext
+- AppleALC
+- IntelMausiEthernet
+- Lilu
+- SMCProcessor
+- SMCSuperIO
+- VirtualSMC
+- USBInjectAll
+- WhateverGreen
 
 ---
 
@@ -50,14 +38,14 @@ Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop
 
 ```
          Model: iMac14,2
-      Board ID: Mac-0000000000000000
+      Board ID: Mac-2700000000000000
     FW Version: 141.0.0.0.0
  Hardware UUID: 00000000-0000-0000-0000-000000000000
  Serial Number: 000000000000
-       Country:  000 - Unknown
+       Country:  D25 - Unknown
           Year:    N - 2014
           Week:    V - 50 (10.12.2014-16.12.2014)
-          Line:  000 - 815 (copy 1)
+          Line:  000 - 000 (copy 1)
          Model: 0000 - iMac14,2
    SystemModel: iMac (27-inch, Late 2013)
          Valid: Possibly
@@ -68,7 +56,9 @@ Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop
 
 ---
 
-## BIOS Settings
+# BIOS Settings
+
+## Recommended
 
 **Disable:**
 
@@ -88,8 +78,15 @@ Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop
 - OS type: Windows 8.1/10 UEFI Mode
 - DVMT Pre-Allocated(iGPU Memory): 64MB
 
+## Real
 
-### Not present in BIOS
+**Disable:**
+
+
+**Enable:**
+
+
+## Not present in BIOS
 
 **Disable**
 
@@ -101,5 +98,3 @@ Guide used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop
 - VT-x
 - Hyper Threading
 - Execute Disable Bit
-
-I cannot get access to my BIOS due to some unknown bug, I have no idea what to do, so this section may be not entirely correct. I’ll update it when I’ll be able to login there.

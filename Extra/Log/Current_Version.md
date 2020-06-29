@@ -1,0 +1,8 @@
+
+---
+
+# Current Version
+
+- Open Core: v.0.5.9 (64396ae) released on Jun 1, 2020
+- macOS Catalina, v.10.15.5 (19F101) updated on June 02, 2020
+- SMBIOS: iMac14,2
