@@ -1,3 +1,12 @@
+# Disclaimer
+
+You cannot use this EFI as it is. 
+
+At least you have to change your Serial Number, which is located in [`EFI/OC/config.plist`](https://github.com/walteweiss/Hackintosh-GA-Z87MX-D3H/blob/master/EFI/OC/config.plist), search for `PlatformInfo`, look for keys: `MLB`, `ROM`, `SystemSerialNumber`, `SystemUUID`. It’s super easy, more on that in [Dortania‘s guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html).
+
+Maybe you have to check for other things, if you have different hardware, e.g. iGPU instead of dGPU. Don’t hesitate to ask if you have any questions.
+
+
 # 2014 Haswell
 
 - Guide Used: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
@@ -5,8 +14,8 @@
 
 # Current Version
 
-- Open Core: v.0.5.9 (64396ae) released on Jun 1, 2020
-- macOS Catalina, v.10.15.5 (19F101) updated on June 02, 2020
+- Open Core: v.0.6.0 (`63898ce`) released on Aug 3, 2020
+- macOS Catalina, v.10.15.6 (`19G2021`) updated on Aug 18, 2020
 - SMBIOS: iMac14,2
 
 # Hardware
