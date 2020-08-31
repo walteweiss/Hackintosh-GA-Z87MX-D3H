@@ -204,9 +204,9 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>BAASBA==</data>
 				<key>framebuffer-patch-enable</key>
-				<string>01000000</string>
+				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<string>00003001</string>
+				<data>AAAwAQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
