@@ -14,8 +14,8 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: v.0.6.0 (`63898ce`) released on Aug 3, 2020
-- macOS Catalina, v.10.15.6 (`19G2021`) updated on Aug 18, 2020
+- Open Core: v.0.6.0 `63898ce` released on Aug 3, 2020
+- macOS Catalina, v.10.15.6 `19G2021` updated on Aug 18, 2020
 - SMBIOS: iMac14,2
 
 # Hardware
@@ -25,7 +25,7 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 - iGPU [Intel HD Graphics 4600](https://downloadcenter.intel.com/product/81496/Intel-HD-Graphics-4600)
 - dGPU [Sapphire](https://www.sapphiretech.com/en/consumer/nitro-rx-580-4g-g5) [Radeon RX 580 4 GB](https://www.amd.com/en/products/graphics/radeon-rx-580)
 - RAM 16 GB 1866 MHz DDR3
-- Audio Codec Realtek ALC892
+- Audio Codec Realtek **ALC892**
 - Ethernet `00:00:00:00:00:00` **I217-V** from Intel 
 - Wi-Fi + Bluetooth `00:00:00:00:00:00`  **BCM43602** 802.11ac
 
@@ -85,9 +85,11 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
 - OS type: Windows 8.1/10 UEFI Mode
-- DVMT Pre-Allocated(iGPU Memory): 64MB
+- DVMT Pre-Allocated (iGPU Memory): 64MB
 
 ## Real
+
+Currently I’m unable to enter my BIOS, so I’ll update this section when I do.
 
 **Disable:**
 
@@ -95,7 +97,7 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 **Enable:**
 
 
-## Not present in BIOS
+## Not present in my BIOS
 
 **Disable**
 
