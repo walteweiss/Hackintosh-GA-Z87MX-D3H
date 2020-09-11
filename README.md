@@ -14,8 +14,8 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: v.0.6.0 `63898ce` [released on Aug 3, 2020](https://github.com/acidanthera/OpenCorePkg/releases)
-- macOS Catalina, v.10.15.6 `19G2021` updated on Aug 18, 2020
+- Open Core: 0.6.0 `63898ce` [released on Aug 3, 2020](https://github.com/acidanthera/OpenCorePkg/releases)
+- macOS: Catalina 10.15.6 `19G2021` updated on Aug 18, 2020
 - SMBIOS: iMac14,2
 
 # Hardware
