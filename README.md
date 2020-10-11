@@ -14,8 +14,8 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: 0.6.0 `63898ce` [released on Aug 3, 2020](https://github.com/acidanthera/OpenCorePkg/releases)
-- macOS: Catalina 10.15.6 `19G2021` updated on Aug 18, 2020
+- Open Core: 0.6.1 `db87b32` released on Sep 7, 2020
+- macOS Catalina, v.10.15.7 `19H2` updated on Sep 26, 2020
 - SMBIOS: iMac14,2
 
 # Hardware
@@ -30,7 +30,7 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 - Wi-Fi + Bluetooth `00:00:00:00:00:00`  **BCM43602** 802.11ac
 
 
-# Kexts
+# [Kexts](./EFI/OC/Kexts/)
 
 - AppleALC
 - IntelMausiEthernet
