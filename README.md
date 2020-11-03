@@ -14,7 +14,7 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: 0.6.2 `cad9e24` released on Oct 5, 2020
+- Open Core: 0.6.3 `f152c95` released on Nov 2, 2020
 - macOS Catalina, v.10.15.7 `19H2` updated on Sep 26, 2020
 - SMBIOS: iMac14,2
 
@@ -67,7 +67,37 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # BIOS Settings
 
-## Recommended
+## Home
+
+- Home/Performance: Defaults
+- Performance/Frequency: Defaults
+- Performance/Memory: System Memory Multiplier is 18.66
+- System: Defaults
+
+## BIOS Features
+
+All defaults
+
+- OS Type: Windows 8 
+
+**Disable:**
+
+- Fast Boot
+
+
+**Enable:**
+
+
+## Peripherals
+
+### Device Config
+
+- Internal Graphics Memory Size: 64M
+- DVMT Pre-Allocated (iGPU Memory): MAX
+- EHCI Hand-off Enabled
+
+
+# Recommended
 
 **Disable:**
 
@@ -87,15 +117,6 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 - OS type: Windows 8.1/10 UEFI Mode
 - DVMT Pre-Allocated (iGPU Memory): 64MB
 
-## Real
-
-Currently I’m unable to enter my BIOS, so I’ll update this section when I do.
-
-**Disable:**
-
-
-**Enable:**
-
 
 ## Not present in my BIOS
 
@@ -107,5 +128,6 @@ Currently I’m unable to enter my BIOS, so I’ll update this section when I do
 **Enable**
 
 - VT-x
+- Above 4G decoding
 - Hyper Threading
 - Execute Disable Bit

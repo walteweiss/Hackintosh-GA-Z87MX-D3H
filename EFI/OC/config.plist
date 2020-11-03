@@ -215,12 +215,7 @@
 			</dict>
 		</dict>
 		<key>Delete</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<array>
-				<string>MaximumBootBeepVolume</string>
-			</array>
-		</dict>
+		<dict/>
 	</dict>
 	<key>Kernel</key>
 	<dict>
@@ -363,6 +358,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelMausi</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Comment</key>
+				<string>Hibernation Fixup</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -569,6 +582,8 @@
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
@@ -774,6 +789,8 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
@@ -873,6 +890,8 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
+			<false/>
+			<key>ForceResolution</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
