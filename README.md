@@ -14,7 +14,7 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: 0.6.3 `f152c95` released on Nov 2, 2020
+- Open Core: 0.6.3 `f152c95` released on Nov 2, 2020 — [Sanity Check Result](https://opencore.slowgeek.com/?file=haswell063tyqdC5&rs=haswell063)
 - macOS Catalina, v.10.15.7 `19H2` updated on Sep 26, 2020
 - SMBIOS: iMac14,2
 
