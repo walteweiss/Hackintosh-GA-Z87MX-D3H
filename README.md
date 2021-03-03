@@ -14,13 +14,13 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: 0.6.3 `f152c95` released on Nov 2, 2020 — [Sanity Check Result](https://opencore.slowgeek.com/?file=haswell063tyqdC5&rs=haswell063)
-- macOS Catalina, v.10.15.7 `19H2` updated on Sep 26, 2020
+- Open Core: 0.6.7 `cbd2fa3` released on Mar 1, 2021 — [Sanity Check Result](https://opencore.slowgeek.com/?file=haswell063tyqdC5&rs=haswell063)
+- macOS Catalina, v.10.15.7 `19H524` updated on Feb 10, 2021
 - SMBIOS: iMac14,2
 
 # Hardware
 
-- MB [GA-Z87MX-D3H](Extra/Specification-GA-Z87MX-D3H.md) @ BIOS [F6 (of F7)](https://www.gigabyte.com/Motherboard/GA-Z87MX-D3H-rev-1x/support#support-dl-bios)
+- MB [GA-Z87MX-D3H](Extra/Specification-GA-Z87MX-D3H.md) @ BIOS [F7 (of F7)](https://www.gigabyte.com/Motherboard/GA-Z87MX-D3H-rev-1x/support#support-dl-bios)
 - CPU [Intel Core i7-4770](https://ark.intel.com/content/www/us/en/ark/products/75122/intel-core-i7-4770-processor-8m-cache-up-to-3-90-ghz.html) 4C/8T @ 3.4 GHz
 - iGPU [Intel HD Graphics 4600](https://downloadcenter.intel.com/product/81496/Intel-HD-Graphics-4600)
 - dGPU [Sapphire](https://www.sapphiretech.com/en/consumer/nitro-rx-580-4g-g5) [Radeon RX 580 4 GB](https://www.amd.com/en/products/graphics/radeon-rx-580)
