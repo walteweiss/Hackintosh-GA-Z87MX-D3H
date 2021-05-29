@@ -14,8 +14,8 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: 0.6.8 `c528597` released on Apr 5, 2021
-- macOS Catalina, v.10.15.7 `19H524` updated on Feb 10, 2021
+- Open Core: 0.6.9 `65cc81b` released on May 3, 2021
+- macOS Catalina, v.10.15.7 `19H1217` updated on May 29, 2021
 - SMBIOS: iMac14,2
 
 # Hardware
