@@ -214,25 +214,25 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>#port</key>
-						<data>
-						EgAAAA==
-						</data>
 						<key>Comment</key>
 						<string>Back-5-Down-USB3</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>port</key>
+						<data>
+						EgAAAA==
+						</data>
 					</dict>
 					<key>SS04</key>
 					<dict>
-						<key>#port</key>
-						<data>
-						EwAAAA==
-						</data>
 						<key>Comment</key>
 						<string>Back-6-Down-USB3</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>port</key>
+						<data>
+						EwAAAA==
+						</data>
 					</dict>
 					<key>SS05</key>
 					<dict>

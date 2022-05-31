@@ -2,9 +2,15 @@
 
 You cannot use this EFI as it is. 
 
-At least you have to change your Serial Number, which is located in [`EFI/OC/config.plist`](https://github.com/walteweiss/Hackintosh-GA-Z87MX-D3H/blob/master/EFI/OC/config.plist), search for `PlatformInfo`, look for keys: `MLB`, `ROM`, `SystemSerialNumber`, `SystemUUID`. It’s super easy, more on that in [Dortania‘s guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html).
+At least you have to change your `PlatformInfo`. 
 
-Maybe you have to check for other things, if you have different hardware, e.g. iGPU instead of dGPU. Don’t hesitate to ask if you have any questions.
+Which is located in [`EFI/OC/config.plist`](https://github.com/walteweiss/Hackintosh-GA-Z87MX-D3H/blob/master/EFI/OC/config.plist), search for `PlatformInfo`. Look for keys: `MLB`, `ROM`, `SystemSerialNumber`, `SystemUUID`. 
+
+It’s easy, more on that in [Dortania‘s guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html).
+
+Maybe you have to check for other things, if you have different hardware, e.g. iGPU instead of dGPU. 
+
+Don’t hesitate to ask if you have any questions.
 
 
 # 2014 Haswell
@@ -14,8 +20,8 @@ Maybe you have to check for other things, if you have different hardware, e.g. i
 
 # Current Version
 
-- Open Core: 0.7.0 `b498683` released on Jun 7, 2021
-- macOS Catalina, v.10.15.7 `19H1217` updated on May 29, 2021
+- Open Core: 0.8.0 `a7cb9c6` released on Apr 18, 2022
+- macOS Catalina, v.10.15.7 `19H1922` updated on May 29, 2022
 - SMBIOS: iMac14,2
 
 # Hardware
