@@ -2,13 +2,10 @@
 
 You cannot use this EFI as it is. 
 
-At least you have to change your `PlatformInfo`. 
-
-Which is located in [`EFI/OC/config.plist`](https://github.com/walteweiss/Hackintosh-GA-Z87MX-D3H/blob/master/EFI/OC/config.plist), search for `PlatformInfo`. Look for keys: `MLB`, `ROM`, `SystemSerialNumber`, `SystemUUID`. 
-
-It’s easy, more on that in [Dortania‘s guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html).
-
-Maybe you have to check for other things, if you have different hardware, e.g. iGPU instead of dGPU. 
+1. At least you have to change your `PlatformInfo`. 
+ - Which is located in [`EFI/OC/config.plist`](https://github.com/walteweiss/Hackintosh-GA-Z87MX-D3H/blob/master/EFI/OC/config.plist), search for `PlatformInfo`. Look for keys: `MLB`, `ROM`, `SystemSerialNumber`, `SystemUUID`. 
+ - It’s easy, more on that in [Dortania‘s guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html).
+2. Maybe you have to check for other things, if you have different hardware, e.g. iGPU instead of dGPU. 
 
 Don’t hesitate to ask if you have any questions.
 
