@@ -41,8 +41,10 @@ Don’t hesitate to ask if you have any questions.
 - SMCProcessor
 - SMCSuperIO
 - VirtualSMC
-- USBInjectAll
+- USBMap
 - WhateverGreen
+
+In alphabetical order. You have to load them differently, [the order matters](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#add-3). Search for `Kernel`, look for `Add` in [the config](./EFI/OC/config.plist). My order is: `Lilu`, `VirtualSMC`, `WhateverGreen`, then all the rest.
 
 ---
 
