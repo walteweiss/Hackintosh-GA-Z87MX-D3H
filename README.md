@@ -1,6 +1,6 @@
 # Disclaimer
 
-You cannot use this EFI as it is. 
+This EFI won’t work as it is. 
 
 1. At least you have to change your `PlatformInfo`. 
  - Which is located in [`EFI/OC/config.plist`](https://github.com/walteweiss/Hackintosh-GA-Z87MX-D3H/blob/master/EFI/OC/config.plist), search for `PlatformInfo`. Look for keys: `MLB`, `ROM`, `SystemSerialNumber`, `SystemUUID`. 
@@ -17,8 +17,8 @@ Don’t hesitate to ask if you have any questions.
 
 # Current Version
 
-- Open Core: 0.8.0 `a7cb9c6` released on Apr 18, 2022
-- macOS Catalina, v.10.15.7 `19H1922` updated on May 29, 2022
+- Open Core: 0.8.3 `c9ba16f` released on Aug 1, 2022
+- macOS Catalina, v.10.15.7 `19H2026` updated on Aug 03, 2022
 - SMBIOS: iMac14,2
 
 # Hardware
